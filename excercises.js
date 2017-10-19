@@ -15,7 +15,6 @@ Je code is pas goed als er geen Warnings en Errors zijn!
 
 
 
-
 /*
     Opgave 1.
     De variabele is function scoped dus niet zichtbaar buiten de functie.
@@ -26,10 +25,11 @@ Je code is pas goed als er geen Warnings en Errors zijn!
 
  */
 
-// function setWidth() {
-//     var width = 100;
-// }
-// console.log(width);
+function setWidth() {
+    var width = 100;
+    
+}
+console.log(width);
 
 /*
     Opgave 2.
